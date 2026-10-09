@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="512" height="512" preserveAspectRatio="xMidYMid meet">
+  <rect x="4" y="4" width="992" height="992" rx="220" ry="220" fill="#1E2B58" />
+  <path
+    d="M 88 448 C 170 185, 310 70, 500 70 C 690 70, 830 185, 912 448 C 815 225, 680 148, 500 148 C 320 148, 185 225, 88 448 Z"
+    fill="#FDE08B"
+    stroke="#1E1D1A"
+    stroke-width="15"
+    stroke-linejoin="round"
+  />
+  <g transform="translate(500, 595)">
+    <!-- Ray 1: Top (0 deg) -->
+    <g transform="rotate(0)">
+      <rect x="-42" y="-360" width="84" height="390" rx="42" ry="42" fill="#FDE08B" stroke="#1E1D1A" stroke-width="15" stroke-linejoin="round" />
+    </g>
+    <!-- Ray 2: Right (80 deg) -->
+    <g transform="rotate(80)">
+      <rect x="-42" y="-355" width="84" height="385" rx="42" ry="42" fill="#FDE08B" stroke="#1E1D1A" stroke-width="15" stroke-linejoin="round" />
+    </g>
+    <!-- Ray 3: Bottom-Right (152 deg) -->
+    <g transform="rotate(152)">
+      <rect x="-42" y="-370" width="84" height="400" rx="42" ry="42" fill="#FDE08B" stroke="#1E1D1A" stroke-width="15" stroke-linejoin="round" />
+    </g>
+    <!-- Ray 4: Bottom-Left (208 deg) -->
+    <g transform="rotate(208)">
+      <rect x="-42" y="-370" width="84" height="400" rx="42" ry="42" fill="#FDE08B" stroke="#1E1D1A" stroke-width="15" stroke-linejoin="round" />
+    </g>
+    <!-- Ray 5: Left (280 deg) -->
+    <g transform="rotate(280)">
+      <rect x="-42" y="-355" width="84" height="385" rx="42" ry="42" fill="#FDE08B" stroke="#1E1D1A" stroke-width="15" stroke-linejoin="round" />
+    </g>
+    <!-- Center Hub -->
+    <circle cx="0" cy="0" r="90" fill="#FDE08B" stroke="#1E1D1A" stroke-width="15" />
+  </g>
+</svg>

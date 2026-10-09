@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-arabic: 'Amiri', serif;
+    --font-coptic: 'Noto Sans Coptic', 'Segoe UI Historic', 'Cardo', 'Cinzel', serif;
+  }
+}
+
+.font-ancient {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.05em;
+}
+
+.font-coptic {
+  font-family: 'Noto Sans Coptic', 'Segoe UI Historic', 'Cardo', 'Cinzel', serif;
+}
+
+.font-arabic {
+  font-family: 'Amiri', 'Tajawal', serif;
+}
+
+/* Refined crisp light mode background */
+.bg-papyrus-light {
+  background-color: #f8f6f0;
+  background-image: 
+    radial-gradient(#e5dfd3 0.75px, transparent 0.75px),
+    radial-gradient(#efe9dc 0.75px, #f8f6f0 0.75px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+/* Deep Obsidian dark mode background */
+.bg-obsidian-dark {
+  background-color: #0b0c10;
+  background-image: 
+    radial-gradient(rgba(253, 224, 139, 0.06) 0.75px, transparent 0.75px),
+    radial-gradient(rgba(30, 43, 88, 0.15) 0.75px, #0b0c10 0.75px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+}
+
+/* Gold foil text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #fde08b 0%, #d4af37 50%, #9a7214 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Print Styles for PDF Export */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  header, footer, nav, .print\\:hidden {
+    display: none !important;
+  }
+}

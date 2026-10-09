@@ -1,0 +1,6 @@
+{
+  "name": "Rompe - Coptic Civil Calendar",
+  "description": "Ancient Egyptian & Civil Coptic Calendar app with 10-day weeks, 13 months, Gregorian and Hijri date synchronization, and Android home screen widget integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
